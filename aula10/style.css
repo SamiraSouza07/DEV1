@@ -1,0 +1,35 @@
+p {
+  font-family: "Yusei Magic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border: solid 2px blue;
+}
+h1 {
+  font-family: "harry-potter";
+  font-size: 100px;
+  font-weight: 20;
+}
+h2 {
+  font-family: "laluna";
+  font-size: 50px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  text-decoration: overline;
+}
+#teste {
+  font-family: "personagens";
+  font-size: 50px;
+}
+
+@font-face {
+  font-family: "harry-potter";
+  src: url("harry_p/HARRYP__.TTF");
+}
+@font-face {
+  font-family: "laluna";
+  src: url("laluna/LALUNA.ttf");
+}
+@font-face {
+  font-family: "personagens";
+  src: url("harry_potter_and_the_dingbats/harry_potter_and_the_dingbat_font.TTF");
+}
