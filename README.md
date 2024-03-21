@@ -9,4 +9,5 @@ Um repositorio remoto para a matéria de Desenvolvimento 1
 
 ## Autores
 
-- [Samira Souza](https://github.com/SamiraSouza07)
+- GitHub [Samira Souza](https://github.com/SamiraSouza07)
+- DockerHub [Samira Souza](https://hub.docker.com/u/samirasouza)
