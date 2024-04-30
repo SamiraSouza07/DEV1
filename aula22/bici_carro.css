@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Arial";
+}
+div {
+  border-radius: 4px;
+  margin: 30px 120px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  width: 45%;
+}
+h1 {
+  margin-top: 30px;
+  margin-left: 120px;
+}
+#btn{
+    background-color: orange;
+    color:black;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+strong{
+    color:orange;
+}
+p{
+    color: rgb(190, 189, 189);
+}
