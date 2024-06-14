@@ -1,0 +1,14 @@
+#main1 div{
+    flex: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+
+}
+#main1{
+    border: 1px solid black;
+    display: flex;
+    height: 220px;
+    width: 300px;
+    align-items: end;
+}

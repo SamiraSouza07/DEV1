@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>Container Básico com Itens flexíveis</h3>
+    <div class="container">
+        <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+    </div>
+
+    <h3>Direção do Flex (Row vs Column)</h3>
+    <div class="container row">
+        <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+    </div>
+    <div class="container column">
+        <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+    </div>
+
+   <h3>Alinhamento e Justificação</h3>
+    <div class="container justfy-center align-center">
+        <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+    </div>
+    <div class="container justfy-space-between">
+        <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+    </div>
+
+    <h3>Flex Grow, Shrink e Basis</h3>
+    <div class="container">
+        <div class="item flex-grow">flex-grow-1</div>
+        <div class="item flex-shrink">flex-shrink-2</div>
+        <div class="item flex-basis">flex-basis-3</div>
+    </div>
+
+    <div class="container wrap">
+        <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+        <div class="item">Item-4</div>
+        <div class="item">Item-5</div>
+    </div>
+
+</body>
+</html>

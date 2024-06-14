@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  background-color: lightgray;
+  padding: 10px;
+}
+.item {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border: 5px;
+  border-radius: 5px;
+}
+.row {
+  flex-direction: row;
+}
+.column {
+  flex-direction: column;
+}
+.justfy-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.justfy-space-between {
+  justify-content: space-between;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.flex-grow{
+  flex-grow: 1;
+}
+.flex-shrink{
+  flex-shrink: 1;
+}
+.flex-basis{
+  flex-basis: 30px;
+}

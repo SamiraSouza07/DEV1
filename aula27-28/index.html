@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formularios aula 27</title>
+  </head>
+  <body>
+    <form action="#">
+      <fieldset>
+        <legend>Cadastro de clientes</legend>
+        <label for="fnome">Nome completo:</label>
+        <input
+          type="text"
+          name="fnome"
+          id="fnome"
+          maxlength="30"
+          minlength="3"
+          placeholder="Nome completo"
+          required
+        /><br /><br />
+        <label for="femail">E-mail:</label>
+        <input
+          type="email"
+          name="femail"
+          id="femail"
+          placeholder="email@gmail.com"
+        /><br /><br />
+        <label for="fphone">Celular:</label>
+        <input
+          type="tel"
+          name="fphone"
+          id="fphone"
+          title="Digite no formato indicado"
+          placeholder="(11) XXXXX-XXXX"
+          maxlength="16"
+        /><br /><br />
+        <label for="fnasc">Data de nascimento:</label>
+        <input
+          type="date"
+          name="fnasc"
+          id="fnasc"
+          min="2007-01-01"
+          max="2008-12-31"
+        />
+        <br /><br />
+        <label for="fnasc2">Data e hora de nascimento:</label>
+        <input
+          type="datetime-local"
+          name="fnasc2"
+          id="fnasc2"
+          min="2007-01-01T23:59"
+          max="2008-12-31T23:59"
+        />
+        <br /><br />
+        <label for="fsenha">Senha:</label>
+        <input type="password" name="fsenha" id="fsenha" />
+      </fieldset>
+      <br /><br />
+      <h2>Escolha</h2>
+      <label for="fescolha">DEV</label>
+      <input type="radio" name="fescolha" id="fescolha1" checked /><br />
+      <label for="fescolha">dados</label>
+      <input type="radio" name="fescolha" id="fescolha2" />
+      <br /><br />
+      <h2>Comidas</h2>
+      <label for="fchoco">Chocolate</label>
+      <input type="checkbox" name="fchoco" id="fchoco" /><br />
+      <label for="fsorvete">Sorvete</label>
+      <input type="checkbox" name="fsorvete" id="fsorvete" /><br />
+      <label for="fmiojo">Miojo</label>
+      <input type="checkbox" name="fmiojo" id="fmiojo" />
+      <br /><br />
+      <label for="fdisc">Disciplinas</label>
+      <select name="fdisc" id="fdisc">
+        <option value="">Escolha uma disciplina</option>
+        <optgroup label="Legais">
+          <option value="fdad">DAD</option>
+          <option value="fmob">MOBILE</option>
+        </optgroup>
+        <optgroup label="Outras">
+          <option value="fds1">DS1</option>
+          <option value="fdvps">DEVOPS</option>
+          <option value="fihc">IHC</option>
+          <option value="fbd">BD2</option>
+          <option value="fds2">DS2</option>
+          <option value="fest">EST</option>
+        </optgroup>
+      </select>
+      <br /><br />
+      <label for="fsom">Aumente o som</label>
+      <input type="range" name="fsom" id="fsom" min="0" max="10" step="2">
+      <br><br>
+      <label for="fcor">Cor</label>
+      <input type="color" name="fcor" id="fcor">
+      <br /><br />
+      <input type="submit" value="Enviar" />
+      <input type="reset" value="Apagar" />
+    </form>
+  </body>
+</html>
