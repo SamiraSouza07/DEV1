@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr .8fr;
+    grid-template-rows: 1.5fr .5fr 3.5fr 3fr;
+    background-color: rgb(34, 36, 38);
+    grid-template-areas: 
+    "header1 header2 header2 header2"
+    "linha linha linha linha"
+    "content content content sidebar"
+    "footer1 footer2 footer3 sidebar";
+    gap: 8px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    height: 531px;
+}
+.header-1{
+    grid-area: header1;
+    background-color: palevioletred;
+}
+.header-2{
+    grid-area: header2;
+    background-color: peachpuff;
+}
+.linha{
+    grid-area: linha;
+    background-color: rgb(68, 124, 124);
+}
+.content{
+    grid-area: content;
+    background-color: purple;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: palegreen;
+}
+.footer-1{
+    grid-area: footer1;
+    background-color: peachpuff;
+}
+.footer-2{
+    grid-area: footer2;
+    background-color: rgb(176, 175, 238);
+}
+.footer-3{
+    grid-area: footer3;
+    background-color: rgb(238, 206, 175);
+}
