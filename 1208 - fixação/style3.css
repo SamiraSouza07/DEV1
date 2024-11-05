@@ -1,0 +1,21 @@
+.grid{
+    height: 500px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr;
+}
+
+@media(min-width:600px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(min-width:900px){
+    .grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+.grid-item{
+    background-color: pink;
+}
